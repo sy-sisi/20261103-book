@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<defs>
+ <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#e7a1b4" opacity=".55"/></pattern>
+ <pattern id="checks" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 0h8v8H0zM8 8h8v8H8z" fill="#9ec7d7" opacity=".38"/></pattern>
+</defs>
+<path d="M0 590 Q220 520 410 575 T820 560 T1200 570V760H0Z" fill="#e8eee3"/>
+<path d="M110 585 Q280 520 470 570 T850 555 T1130 575" fill="none" stroke="#b7cdb8" stroke-width="4"/>
+<path d="M170 620 Q350 570 520 610 T930 600" fill="none" stroke="#b7cdb8" stroke-width="3"/>
+<!-- canopy -->
+<path d="M60 210 Q250 90 440 210 L420 250H80Z" fill="url(#checks)" stroke="#333" stroke-width="4"/>
+<path d="M60 210 Q250 90 440 210" fill="none" stroke="#333" stroke-width="4"/>
+<path d="M760 215 Q930 95 1140 215 L1110 255H790Z" fill="#f6c6ad" stroke="#333" stroke-width="4"/>
+<path d="M760 215 Q930 95 1140 215" fill="none" stroke="#333" stroke-width="4"/>
+<!-- book stalls -->
+<g stroke="#333" stroke-width="4" stroke-linejoin="round">
+ <path d="M90 255h320v220H90z" fill="#f4d5b7"/><path d="M75 250l175-58 175 58z" fill="#d9b99d"/>
+ <path d="M790 255h300v220H790z" fill="#fff0d9"/><path d="M775 250l165-58 165 58z" fill="#eaa48f"/>
+ <path d="M110 350h280v20H110z" fill="#b98c6e"/><path d="M810 350h260v20H810z" fill="#b98c6e"/>
+ <path d="M150 300v48M205 300v48M260 300v48M315 300v48M870 300v48M925 300v48M980 300v48M1035 300v48" stroke="#c38f72" stroke-width="3"/>
+</g>
+<!-- book stacks -->
+<g stroke="#333" stroke-width="3">
+ <path d="M130 326l58-8 3 28-58 8z" fill="#f2c84b"/><path d="M193 315l55 7-4 28-55-7z" fill="#58a6bd"/>
+ <path d="M255 322l62-4 2 28-62 4z" fill="#e87883"/><path d="M320 310l46 8-4 28-46-8z" fill="#6caa83"/>
+ <path d="M845 327l52-8 4 29-52 8z" fill="#e87883"/><path d="M903 316l56 7-4 28-56-7z" fill="#f2c84b"/>
+ <path d="M965 323l52-4 2 28-52 4z" fill="#58a6bd"/>
+</g>
+<!-- central star and confetti -->
+<path d="M600 85l18 48 50-10-35 38 29 43-49-20-30 43 3-52-49-19 51-13z" fill="#e85da8" stroke="#333" stroke-width="4"/>
+<path d="M500 185l12 28 30-6-22 22 14 27-29-12-19 25 2-31-29-12 31-8z" fill="#26a9c5" stroke="#333" stroke-width="3"/>
+<path d="M720 180l11 26 28-5-20 20 13 25-27-11-18 23 2-28-27-11 28-7z" fill="#8ecb45" stroke="#333" stroke-width="3"/>
+<g fill="#f3c84b" stroke="#333" stroke-width="2"><path d="M80 125l8 18 20-3-14 14 8 18-19-8-13 16 1-20-18-8 20-5z"/><path d="M1090 105l8 18 20-3-14 14 8 18-19-8-13 16 1-20-18-8 20-5z"/></g>
+<!-- character 1 -->
+<g stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+ <circle cx="360" cy="420" r="48" fill="#f5b8a6"/><path d="M316 412q-8-65 54-59 48 7 39 65-18-25-35-34-18 26-58 28z" fill="#3e3835"/>
+ <path d="M330 418q8 10 17 0M375 418q8 10 17 0" fill="none" stroke-width="3"/><path d="M354 440q12 10 24 0" fill="none" stroke-width="3"/>
+ <path d="M315 478q45-28 91 0l20 95H295z" fill="#ef765e"/><path d="M313 495l-50 55M405 495l45-44" fill="none" stroke="#f5b8a6" stroke-width="20"/>
+ <path d="M318 565l-10 75M390 565l18 75" stroke="#2d6f88" stroke-width="24"/><path d="M292 642h38M394 642h40" stroke="#333" stroke-width="8"/>
+ <path d="M444 450l24-36 27 10-24 39z" fill="#f2c84b"/>
+</g>
+<!-- character 2 -->
+<g stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+ <circle cx="650" cy="405" r="49" fill="#f5b8a6"/><path d="M603 399q-8-64 49-66 60 2 52 76l-21-27-19-30q-20 31-61 47z" fill="#5a4036"/>
+ <path d="M628 407q8 10 16 0M664 407q8 10 16 0" fill="none" stroke-width="3"/><path d="M640 429q13 12 26 0" fill="none" stroke-width="3"/>
+ <path d="M602 463q48-30 98 0l19 100H583z" fill="#f2c84b"/><path d="M606 485l-54-40M695 484l45-45" stroke="#f5b8a6" stroke-width="20"/>
+ <path d="M610 560l-18 78M686 560l20 78" stroke="#e87983" stroke-width="24"/><path d="M580 642h40M690 642h40" stroke="#333" stroke-width="8"/>
+ <path d="M745 440l18-34 27 4-15 40z" fill="#68ad83"/>
+</g>
+<!-- character 3 sitting with book -->
+<g stroke="#333" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+ <circle cx="850" cy="470" r="42" fill="#f5b8a6"/><path d="M810 465q-4-60 45-58 50 4 42 61l-20-25-21-19q-16 29-46 41z" fill="#4a3934"/>
+ <path d="M832 472q7 8 14 0M861 472q7 8 14 0" fill="none" stroke-width="3"/>
+ <path d="M811 515q40-24 80 0l12 76H798z" fill="#6caa83"/><path d="M810 585l-25 35M885 585l22 35" stroke="#f5b8a6" stroke-width="18"/>
+ <path d="M830 540l75 15-8 55-75-15z" fill="#fff8e8"/><path d="M830 540l-8 55 75 15" fill="none" stroke="#333" stroke-width="3"/>
+</g>
+<!-- decorative plants -->
+<g stroke="#333" stroke-width="3" fill="#6caa83"><path d="M45 560v-85"/><ellipse cx="45" cy="475" rx="15" ry="26"/><ellipse cx="25" cy="505" rx="14" ry="23"/><ellipse cx="65" cy="520" rx="14" ry="23"/><path d="M1140 560v-80"/><ellipse cx="1140" cy="478" rx="15" ry="25"/><ellipse cx="1120" cy="510" rx="14" ry="22"/><ellipse cx="1160" cy="520" rx="14" ry="22"/></g>
+</svg>

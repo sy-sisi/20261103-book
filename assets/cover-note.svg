@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460">
+    <rect width="360" height="460" rx="8" fill="#f5f0e2"/>
+    <rect x="22" y="22" width="316" height="416" rx="5" fill="none" stroke="#8da979" stroke-width="5"/>
+    <circle cx="180" cy="185" r="86" fill="#8da979" opacity=".88"/>
+    <path d="M125 200q55-90 110 0q-55 65-110 0" fill="#f5f0e2" opacity=".9"/>
+    <path d="M180 100v170M110 185h140" stroke="#f5f0e2" stroke-width="5" opacity=".8"/>
+    <text x="180" y="340" font-size="34" text-anchor="middle" font-family="sans-serif" font-weight="700" fill="#34352f">오늘의 기록</text>
+    <text x="180" y="382" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#68665d">독립잡지</text>
+    </svg>

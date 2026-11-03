@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>사전등록 | 북앤드림</title><link rel="stylesheet" href="style.css"></head>
+<body class="register-page">
+<header class="site-header"><a class="brand" href="index.html">BOOK<span>&</span>DREAM</a><a class="header-cta" href="index.html">페어 홈으로 ↗</a></header>
+<main class="register-wrap">
+  <a class="back-link" href="index.html">← 메인으로 돌아가기</a>
+  <p class="eyebrow">WELCOME TO BOOK & DREAM</p><h1>당신의 자리를<br><em>예약해 주세요.</em></h1>
+  <p class="register-intro">북앤드림 독립출판 페어 사전등록 페이지입니다.<br>아래 정보를 작성하면 신청이 완료됩니다.</p>
+  <div class="form-tabs"><button class="tab active" data-form="visitor">관람객 사전등록</button><button class="tab" data-form="talk">북토크 예약</button><button class="tab" data-form="publisher">출판사 참가 신청</button></div>
+  <form id="registrationForm" class="registration-form">
+    <input type="hidden" id="formType" value="visitor">
+    <label>이름 <input name="name" required placeholder="이름을 입력해 주세요"></label>
+    <label>연락처 <input name="phone" required placeholder="010-0000-0000"></label>
+    <label>이메일 <input type="email" name="email" required placeholder="hello@example.com"></label>
+    <label id="dateLabel">방문 예정일 <select name="date"><option value="11월 21일(토)">11월 21일(토)</option><option value="11월 22일(일)">11월 22일(일)</option><option value="양일 모두">양일 모두</option></select></label>
+    <label id="extraLabel">방문 인원 <select name="people"><option>1명</option><option>2명</option><option>3명</option><option>4명</option></select></label>
+    <label class="agree"><input type="checkbox" required> 개인정보 수집 및 이용에 동의합니다.</label>
+    <button class="primary-btn submit-btn" type="submit">신청 완료하기 <b>↗</b></button>
+    <p class="form-note">※ 본 페이지는 웹디자인 시연용 가상 신청 페이지입니다. 실제 예약이나 개인정보 전송은 이루어지지 않습니다.</p>
+    <div class="success-message" id="successMessage" role="status">신청이 접수되었습니다!<br><small>북앤드림에서 만나요. 고맙습니다 ♡</small></div>
+  </form>
+</main>
+<footer class="site-footer"><a class="brand" href="index.html">BOOK<span>&</span>DREAM</a><small>© 2026 BOOK & DREAM</small></footer>
+<script src="script.js"></script>
+</body></html>

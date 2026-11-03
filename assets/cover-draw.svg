@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460">
+    <rect width="360" height="460" rx="8" fill="#f7efdb"/>
+    <rect x="22" y="22" width="316" height="416" rx="5" fill="none" stroke="#6ba9b7" stroke-width="5"/>
+    <circle cx="180" cy="185" r="86" fill="#6ba9b7" opacity=".88"/>
+    <path d="M125 200q55-90 110 0q-55 65-110 0" fill="#f7efdb" opacity=".9"/>
+    <path d="M180 100v170M110 185h140" stroke="#f7efdb" stroke-width="5" opacity=".8"/>
+    <text x="180" y="340" font-size="34" text-anchor="middle" font-family="sans-serif" font-weight="700" fill="#34352f">작은 정원</text>
+    <text x="180" y="382" font-size="18" text-anchor="middle" font-family="sans-serif" fill="#68665d">그림 에세이</text>
+    </svg>
